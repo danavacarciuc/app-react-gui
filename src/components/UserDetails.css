@@ -1,0 +1,19 @@
+.details-container {
+    width: 350px;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    font-size: 19px;
+    line-height: 32px;
+  }
+  
+  .details-container h2 {
+    margin-bottom: 18px;
+    font-size: 26px;
+  }
+  
+  .details-container span {
+    font-weight: bold;
+  }
+  

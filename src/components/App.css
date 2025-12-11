@@ -1,13 +1,18 @@
 .app-container {
-  display: flex;
-  padding: 20px;
-}
-
-.left-panel {
-  width: 40%;
-}
-
-.right-panel {
-  width: 60%;
-  padding-left: 20px;
-}
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background: #f5f7fa;
+    min-height: 100vh;
+  }
+  
+  .left-panel {
+    flex: 3;
+  }
+  
+  .right-panel {
+    flex: 1;
+    position: sticky;
+    top: 30px;
+  }
+  

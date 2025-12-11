@@ -1,0 +1,48 @@
+.user {
+    width: 260px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin: 15px;
+  }
+  
+  .user:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+  }
+  
+  .user .username {
+    background: #6ec9ff;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .user .fullName {
+    background: #b8d2e6;
+    padding: 18px;
+    font-size: 17px;
+    text-align: center;
+  }
+  
+  .user-footer {
+    padding: 12px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background: #e9f4ff;
+  }
+  
+  .user.power {
+    border: 3px solid #ff6b5b;
+  }
+  
+  .user.power .user-footer {
+    background: #ff6b5b;
+    color: white;
+  }
+  
